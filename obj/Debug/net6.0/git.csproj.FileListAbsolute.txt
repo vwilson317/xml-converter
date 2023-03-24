@@ -1,0 +1,15 @@
+/Users/vincent/git/converter-service/bin/Debug/net6.0/git
+/Users/vincent/git/converter-service/bin/Debug/net6.0/git.deps.json
+/Users/vincent/git/converter-service/bin/Debug/net6.0/git.runtimeconfig.json
+/Users/vincent/git/converter-service/bin/Debug/net6.0/git.dll
+/Users/vincent/git/converter-service/bin/Debug/net6.0/git.pdb
+/Users/vincent/git/converter-service/obj/Debug/net6.0/git.csproj.AssemblyReference.cache
+/Users/vincent/git/converter-service/obj/Debug/net6.0/git.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincent/git/converter-service/obj/Debug/net6.0/git.AssemblyInfoInputs.cache
+/Users/vincent/git/converter-service/obj/Debug/net6.0/git.AssemblyInfo.cs
+/Users/vincent/git/converter-service/obj/Debug/net6.0/git.csproj.CoreCompileInputs.cache
+/Users/vincent/git/converter-service/obj/Debug/net6.0/git.dll
+/Users/vincent/git/converter-service/obj/Debug/net6.0/refint/git.dll
+/Users/vincent/git/converter-service/obj/Debug/net6.0/git.pdb
+/Users/vincent/git/converter-service/obj/Debug/net6.0/git.genruntimeconfig.cache
+/Users/vincent/git/converter-service/obj/Debug/net6.0/ref/git.dll
