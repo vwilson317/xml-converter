@@ -87,7 +87,16 @@ public static class XmlToCsvService
                 {
                     if (comboProp.Contains("="))
                     {
-                        var collection = GetCollection(obj, comboProp);
+                        var propNameAndFilter = comboProp.Split('=');
+                        var filtered = ((IEnumerable<dynamic>)obj).Select(x =>
+                            x.GetType().GetProperties().Where(x => x.Name == propNameAndFilter[0]
+                            && x.GetValue(obj, null) == propNameAndFilter[1]));
+                        // obj.GetType().GetProperties().Where(x => x.Name == propNameAndFilter[0]).ToList().ForEach(x =>
+                        // {
+                        //     var prop = x.GetValue(obj, null);
+                        //     valueList.Add(prop);
+                        // }
+                        //var collection = GetCollection(obj, comboProp);
                     }
                     else
                     {
